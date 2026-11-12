@@ -13,6 +13,7 @@ allocations to support accurate planning, monitoring and future network
 expansion.
 
 Users
+
 The main users are network administrators, who create and manage IP
 address allocations; network engineers, who plan subnets, configure
 VLANs and maintain connectivity; IT managers, who review network
@@ -20,6 +21,7 @@ resources and approve changes; and authorised university network
 representatives, who view their institution's assigned network details.
 
 Main operations
+
 The system records network sites and connected institutions, registers
 network devices and VLANs, allocates IPv4 subnets using VLSM, assigns
 IPv6 prefixes for dual-stack connectivity, records subnet gateways and
