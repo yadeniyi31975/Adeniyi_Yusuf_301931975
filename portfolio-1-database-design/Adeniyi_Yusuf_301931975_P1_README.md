@@ -1,4 +1,5 @@
 Portfolio 1 Database Design and Modelling
+
 Case study
 LearnNaija Network Address Management System is a proposed database
 system for managing the IPv4 and IPv6 address allocation of LearnNaija
@@ -9,6 +10,7 @@ plans using Variable Length Subnet Masking (VLSM), IPv6 prefixes and
 VLAN segmentation. It provides a centralised record of address
 allocations to support accurate planning, monitoring and future network
 expansion.
+
 Users
 The main users are network administrators, who create and manage IP
 address allocations; network engineers, who plan subnets, configure
@@ -21,6 +23,8 @@ network devices and VLANs, allocates IPv4 subnets using VLSM, assigns
 IPv6 prefixes for dual-stack connectivity, records subnet gateways and
 address ranges, tracks available and allocated IP address blocks, and
 generates address allocation and route summarisation reports.
+
+
 Business rules
 1. Every network site must have a unique site_id and a registered
    site name.
@@ -40,6 +44,7 @@ Business rules
 8. An address allocation must have a recorded allocation date and
    status; only authorised network administrators may approve changes
    or mark an allocation as released.
+   
 Scope
 The system covers fictional network records for LearnNaija's Abuja
 headquarters, Lagos and Port Harcourt PoPs, and selected connected
