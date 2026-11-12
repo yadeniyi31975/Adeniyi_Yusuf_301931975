@@ -1,6 +1,7 @@
 Portfolio 1 Database Design and Modelling
 
 Case study
+
 LearnNaija Network Address Management System is a proposed database
 system for managing the IPv4 and IPv6 address allocation of LearnNaija
 Ltd., an educational technology organisation operating a headquarters in
@@ -17,6 +18,7 @@ address allocations; network engineers, who plan subnets, configure
 VLANs and maintain connectivity; IT managers, who review network
 resources and approve changes; and authorised university network
 representatives, who view their institution's assigned network details.
+
 Main operations
 The system records network sites and connected institutions, registers
 network devices and VLANs, allocates IPv4 subnets using VLSM, assigns
@@ -26,6 +28,7 @@ generates address allocation and route summarisation reports.
 
 
 Business rules
+
 1. Every network site must have a unique site_id and a registered
    site name.
 2. Every network segment must have a unique segment_id and belong to
@@ -46,6 +49,7 @@ Business rules
    or mark an allocation as released.
    
 Scope
+
 The system covers fictional network records for LearnNaija's Abuja
 headquarters, Lagos and Port Harcourt PoPs, and selected connected
 university networks. It includes site registration, IPv4 VLSM
